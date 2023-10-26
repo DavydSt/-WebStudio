@@ -7,5 +7,54 @@
 }
 
 /*header*/
- .
 
+ header{
+    line-height: normal;
+    font-style: normal;
+ }
+
+ .header-title{
+    font-family: Raleway;
+ font-size: 26px;
+ font-weight: 700;
+ letter-spacing: 0.78px;
+ }
+
+.header-link{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+
+letter-spacing: 0.28px;
+}
+
+/*footer*/
+
+footer{
+    font-style: normal;
+}
+
+.footer-title{
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.footer-item{
+    color: var(--additional-text-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+.footer-address{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
