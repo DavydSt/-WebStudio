@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dz4-??</title>
-   <link rel="stylesheet" href="./index.css">
+   <link rel="stylesheet" href="./css/index.css">
     <!--text-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
   <body>
     <!--header-->
     <header class="header">
-     <h1 class="header-title"> WebStudio</h1>
+      <span class="header-title1">Web</span><span class="header-title2">Studio</span>
       <nav class="header-navigation">
         <ul class="header-list">
           <li class="header-item">
@@ -22,7 +22,7 @@
           <li class="header-item">
             <a href="./Portfolio.html" class="header-link">Портфоліо</a>
           </li>
-          <li class="header-item" class="header-link">
+          <li class="header-item">
             <a href="" class="header-link"> Контакти </a>
           </li>
         </ul>
@@ -47,7 +47,7 @@
         <ul>
           <li>
             <article class="main-article">
-              <h3 class="mainsub-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="main-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="main-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
@@ -56,7 +56,7 @@
           </li>
           <li>
             <article class="main-article">
-              <h3 class="mainsub-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="main-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="main-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
@@ -65,7 +65,7 @@
           </li>
           <li>
             <article class="main-article">
-              <h3 class="mainsub-title">ПЛАНУВАННЯ</h3>
+              <h3 class="main-title">ПЛАНУВАННЯ</h3>
               <p class="main-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
@@ -73,7 +73,7 @@
           </li>
           <li>
             <article class="main-article">
-              <h3 class="mainsub-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="main-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="main-text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
@@ -82,66 +82,46 @@
           </li>
         </ul>
       </section>
-      <section class="main">
-        <h2 class="main-title">Чим ми займаємося</h2>
+      <!--hero-->
+      <section class="hero">
+        <h2 class="hero-title">Чим ми займаємося</h2>
         <ul>
-          <li><img src="./images/ipad.png" alt="ipad" class="main-logo"/></li>
-          <li><img src="./images/ipad2.png" alt="pc" class="main-logo"/></li>
-          <li><img src="./images/phon.png" alt="smart phon" class="main-logo"/></li>
+          <li><img src="./images/ipad.png" alt="ipad" class="hero-logo"/></li>
+          <li><img src="./images/ipad2.png" alt="pc" class="hero-logo"/></li>
+          <li><img src="./images/phon.png"alt="smart phon" class="hero-logo"/></li>
         </ul>
       </section>
-      <!--hero-->
       <section class="hero">
         <h2 class="hero-title">Наша команда</h2>
         <ul>
           <li>
             <article class="hero-article">
-              <img class="img-hero"
-                width="300"
-                height="250"
-                src="./images/somemen.png"
-                alt="наш працівник1"
-              />
-              <h3 class="herosub-title">Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <img class="img-hero" src="./images/somemen.png"alt="наш працівник1"/>
+              <h3 class="hero-title">Ігор Дем'яненко</h3>
+              <p class="hero-text">Product Designer</p>
             </article>
           </li>
 
           <li>
             <article class="hero-article">
-              <img class="img-hero"
-                width="265"
-                height="250"
-                src="./images/somewoman.png"
-                alt="наша працівниця2"
-              />
-              <h3 class="herosub-title">Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <img class="img-hero"src="./images/somewoman.png" alt="наша працівниця2" />
+              <h3 class="hero-title">Ольга Рєпіна</h3>
+              <p class="hero-text">Frontend Developer</p>
             </article>
           </li>
 
           <li>
             <article class="hero-article">
-              <img class="img-hero"
-                width="265"
-                height="250"
-                src="./images/somemen2.png"
-                alt="наш працівник3"
-              />
-              <h3 class="herosub-title">Микола Тарасов</h3>
-              <p>Marketing</p>
+              <img class="img-hero" src="./images/somemen2.png" alt="наш працівник3"/>
+              <h3 class="hero-title">Микола Тарасов</h3>
+              <p class="hero-text">Marketing</p>
             </article>
           </li>
           <li>
             <article class="hero-article">
-              <img class="img-hero"
-                width="265"
-                height="250"
-                src="./images/somemen3.png"
-                alt="наш працівник4"
-              />
-              <h3 class="herosub-title">Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+              <img class="img-hero" src="./images/somemen3.png" alt="наш працівник4"/>
+              <h3 class="hero-title">Михайло Єрмаков</h3>
+              <p class="hero-text">UI Designer</p>
             </article>
           </li>
         </ul>
@@ -149,7 +129,7 @@
     </main>
 <!--footer-->
     <footer class="footer">
-      <h2 class="footer-title">WebStudio</h2>
+      <span class="footer-title1">Web</span><span class="footer-title2">Studio</span>
       <ul class="footer-list">
         <li class="footer-item">
           <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
