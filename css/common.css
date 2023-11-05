@@ -1,0 +1,13 @@
+:root {
+    --accent-color: #212121;
+    --text-color: #212121;
+    --background-color: #fff;
+    --additional-text-color: #757575;
+    --background-color2: #2f303a;
+    --button-background: #F5F4FA;
+  }
+  
+  body {
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+  }

@@ -1,60 +1,102 @@
-:root {
-    --accent-color: #212121;
-    --text-color: #212121;
-    --background-color:  #FFF;
-    --additional-text-color:  #757575;
-   
-}
 
 /*header*/
 
- header{
-    line-height: normal;
-    font-style: normal;
- }
+.header-title1{
+  font-family: Raleway;
+  color: #2196F3;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+}
 
- .header-title{
-    font-family: Raleway;
- font-size: 26px;
- font-weight: 700;
- letter-spacing: 0.78px;
- }
+.header-title2{
+  font-family: Raleway;
+  color: #000;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+}
 
-.header-link{
-    font-family: Roboto;
+.header-list :only-child {
+  color: #212121;
 font-size: 14px;
 font-weight: 500;
+line-height: 0.87;
+letter-spacing: 0.02em;
+cursor: pointer;
+}
 
-letter-spacing: 0.28px;
+.header-link :hover{
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+ /* hero */
+
+.hero-button{
+   color: #212121; /* var(--text-color) */
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+cursor: pointer;
+border-radius: 4px;
+ background-color: #F5F4FA; /* var(--button-background) */
+}
+
+ .hero-button :checked{ /* чому воно не процює? чому воне не стоє синім? */
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; 
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.hero-title{
+  color: #212121;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px; 
+letter-spacing: 0.06em;
 }
 
 /*footer*/
 
-footer{
-    font-style: normal;
+.footer{
+  background-color: var(--background-color2);
 }
 
-.footer-title{
-    font-family: Raleway;
+.footer-title1{
+  color: #2196F3;
+  font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+line-height: 1.38;
 }
 
-.footer-item{
-    color: var(--additional-text-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
+.footer-title2{
+  color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
 }
 
-.footer-address{
-    font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
+.footer-item {
+  color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-address {
+  color: var(--background-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
