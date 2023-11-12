@@ -17,7 +17,16 @@ font-weight: 700;
 line-height: 1.38;
 }
 
-.header-list :only-child {
+.header-link:hover{
+  color: #2196F3;
+  font-size: 14px;
+font-weight: 500;
+line-height: 0.87;
+letter-spacing: 0.02em;
+cursor: pointer;
+}
+
+.header-link{
   color: #212121;
 font-size: 14px;
 font-weight: 500;
@@ -26,17 +35,11 @@ letter-spacing: 0.02em;
 cursor: pointer;
 }
 
-.header-link :hover{
-  color: #2196F3;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
 /*about*/
 
 .about{
   background-color: var(--background-color2);
+  width: 1600px;
 }
 
 .about :last-child {
