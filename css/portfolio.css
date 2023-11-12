@@ -33,6 +33,17 @@ cursor: pointer;
   letter-spacing: 0.02em;
 }
 
+.header:nth-last-child(2){
+  color: #757575;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
  /* hero */
 
 .hero-button{
