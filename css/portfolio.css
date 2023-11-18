@@ -37,18 +37,18 @@ cursor: pointer;
 
  /* hero */
 
-.hero-button{
-   color: #212121; /* var(--text-color) */
+ .hero-button{ /* чому воно не процює? чому воне не стоє синім? */
+  color: #212121;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
-line-height: 26px;
-cursor: pointer;
-border-radius: 4px;
- background-color: #F5F4FA; /* var(--button-background) */
+line-height: 26px; 
+  border-radius: 4px;
+background: #F5F4FA;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
- .hero-button :checked{ /* чому воно не процює? чому воне не стоє синім? */
+.hero-button:hover{ /* чому воно не процює? чому воне не стоє синім? */
   color: #FFF;
 text-align: center;
 font-size: 16px;
