@@ -1,9 +1,19 @@
 
+:root {
+  --accent-color: #212121;
+  --text-color: #000;
+  --background-color: #fff;
+  --additional-text-color: #757575;
+  --background-color2: #2f303a;
+  --button-background: #F5F4FA;
+  --WebStudio-color: #2196F3;
+}
+
 /*header*/
 
 .header-title1{
   font-family: Raleway;
-  color: #2196F3;
+  color: var(--WebStudio-color);
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
@@ -18,11 +28,11 @@ line-height: 1.38;
 }
 
 .header-link:hover{
-  color: #2196F3;
+  color: var(--WebStudio-color);
 }
 
 .header-link{
-  color: #212121;
+  color: var(--accent-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
@@ -31,7 +41,7 @@ cursor: pointer;
 }
 
 .header-contact{
-  color:  #757575;
+  color:  var(--additional-text-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
@@ -39,27 +49,37 @@ letter-spacing: 0.02em;
 cursor: pointer;
 }
 
-header-contact
+.header-contact:hover{
+  color: var(--WebStudio-color);
+}
 
 /*about*/
+
+.about{
+  background-color:var(--background-color2) ;
+}
 
 .about-title {
   color:var( --background-color);
 text-align: center;
 font-size: 44px;
 font-weight: 900;
-line-height: 60px; 
+line-height: 1.36; 
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 
 .about-button {
+  color:var(--background-color);
   margin: 0 auto;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+background: var(--WebStudio-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*main*/
@@ -68,7 +88,7 @@ text-transform: uppercase;
   color: var(--text-color);
 font-size: 14px;
 font-weight: 700;
-line-height: 0.87;
+line-height: 1.14;
 text-transform: uppercase;
 }
 
@@ -76,7 +96,7 @@ text-transform: uppercase;
   color: var(--additional-text-color);
 font-size: 14px;
 font-weight: 400;
-line-height: 24px; 
+line-height: 1.71; 
 }
 
 /*hero*/
@@ -124,7 +144,7 @@ line-height: 1.18;
 }
 
 .footer-title1{
-  color: #2196F3;
+  color: var(--WebStudio-color);
   font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -132,7 +152,7 @@ line-height: 1.38;
 }
 
 .footer-title2{
-  color: #FFF;
+  color: var(--background-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -143,12 +163,12 @@ line-height: 1.38;
   color: var(--additional-text-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .footer-address {
   color: var(--background-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
 }

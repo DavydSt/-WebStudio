@@ -1,9 +1,18 @@
+:root {
+  --accent-color: #212121;
+  --text-color: #000;
+  --background-col: #fff;
+  --additional-text-color: #757575;
+  --background-color2: #2f303a;
+  --button-background: #F5F4FA;
+  --WebStudio-color: #2196F3;
+}
 
 /*header*/
 
 .header-title1{
   font-family: Raleway;
-  color: #2196F3;
+  color: var(--WebStudio-color);
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
@@ -11,60 +20,71 @@ line-height: 1.38;
 
 .header-title2{
   font-family: Raleway;
-  color: #000;
+  color: var(--text-color);
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 }
 
 .header-link:hover{
-  color: #2196F3;
-  font-size: 14px;
+  color: var(--WebStudio-color);
+}
+
+.header-link{
+  color: var(--accent-color);
+font-size: 14px;
 font-weight: 500;
-line-height: 0.87;
+line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
 }
 
-.header-link{
-  color: #212121;
+.header-contact{
+  color:  var(--additional-text-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 0.87;
+line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
 }
+
+.header-contact:hover{
+  color: var(--WebStudio-color);
+}
+
 
  /* hero */
 
  .hero-button{ /* чому воно не процює? чому воне не стоє синім? */
-  color: #212121;
+  color: var(--accent-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
-line-height: 26px; 
+line-height: 1.62; 
   border-radius: 4px;
-background: #F5F4FA;
+background: var(--button-background);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-button:hover{ /* чому воно не процює? чому воне не стоє синім? */
-  color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 26px; 
-  border-radius: 4px;
-background: #2196F3;
+  color:var(--background-col);
+background: var(--WebStudio-color);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-title{
-  color: #212121;
+  color: var(--accent-color);
 font-size: 18px;
 font-weight: 700;
-line-height: 36px; 
+line-height: 2; 
 letter-spacing: 0.06em;
+}
+
+.hero-text{
+  color: var(--additional-text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87; 
 }
 
 /*footer*/
@@ -74,7 +94,7 @@ letter-spacing: 0.06em;
 }
 
 .footer-title1{
-  color: #2196F3;
+  color: var(--WebStudio-color);
   font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -82,7 +102,7 @@ line-height: 1.38;
 }
 
 .footer-title2{
-  color: #FFF;
+  color: var(--background-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -93,12 +113,12 @@ line-height: 1.38;
   color: var(--additional-text-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .footer-address {
   color: var(--background-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
 }
