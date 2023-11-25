@@ -8,6 +8,12 @@
   --WebStudio-color: #2196F3;
 }
 
+body {
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
 .container{
   outline: solid red;
   width:  1170px;
@@ -16,7 +22,16 @@
   padding-right: 15px;
 }
 
+section{
+  outline: solid blue;
+}
+
 /*header*/
+
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header-title1{
   font-family: Raleway;
@@ -63,6 +78,11 @@ cursor: pointer;
 
  /* hero */
 
+ .hero{
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
  .hero-button{ /* чому воно не процює? чому воне не стоє синім? */
   color: var(--accent-color);
 text-align: center;
@@ -99,6 +119,8 @@ line-height: 1.87;
 
 .footer{
   background-color: var(--background-color2);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-title1{
