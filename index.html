@@ -5,48 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
     <!--text-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-<link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!--header-->
-    <header class="header">
-      <a href="./index.html"><span class="header-title1">Web</span><span class="header-title2">Studio</span></a>
-      <nav class="header-navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link"> Студія </a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link"> Портфоліо </a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link"> Контакти </a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a>
-        </li>
-        <li class="header-item">
-          <a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a>
-        </li>
-      </ul>
+    <header>
+      <section class="header">
+        <div class="container">
+          <a href="./index.html"
+            ><span class="header-title1">Web</span
+            ><span class="header-title2">Studio</span></a
+          >
+          <nav class="header-navigation">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link"> Студія </a>
+              </li>
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-link"> Портфоліо </a>
+              </li>
+              <li class="header-item">
+                <a href="" class="header-link"> Контакти </a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="mailto:info@devstudio.com" class="header-contact"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="tel:+380961111111" class="header-contact"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
     <!--about-->
     <main>
       <section class="about">
-        <h2 class="about-title">Ефективні рішення для вашого бізнесу</h2>
-        <button type="button" class="about-button">Замовити послугу</button>
+        <div class="container">
+          <h2 class="about-title">Ефективні рішення для вашого бізнесу</h2>
+          <button type="button" class="about-button">Замовити послугу</button>
+        </div>
       </section>
-     <!--main-->
+      <!--main-->
       <section class="main">
+        <div class="container">
         <ul>
           <li>
             <article class="main-article">
@@ -84,22 +104,32 @@
             </article>
           </li>
         </ul>
+        </div>
       </section>
       <!--hero-->
       <section class="hero">
+        <div class="container">
         <h2 class="hero-title1">Чим ми займаємося</h2>
         <ul>
-          <li><img src="./images/ipad.png" alt="ipad" class="hero-logo"/></li>
-          <li><img src="./images/ipad2.png" alt="pc" class="hero-logo"/></li>
-          <li><img src="./images/phon.png"alt="smart phon" class="hero-logo"/></li>
+          <li><img src="./images/ipad.png" alt="ipad" class="hero-logo" /></li>
+          <li><img src="./images/ipad2.png" alt="pc" class="hero-logo" /></li>
+          <li>
+            <img src="./images/phon.png" alt="smart phon" class="hero-logo" />
+          </li>
         </ul>
+        </div>
       </section>
       <section class="hero">
+        <div class="container">
         <h2 class="hero-title1">Наша команда</h2>
         <ul>
           <li>
             <article class="hero-article">
-              <img class="img-hero" src="./images/somemen.png"alt="наш працівник1"/>
+              <img
+                class="img-hero"
+                src="./images/somemen.png"
+                alt="наш працівник1"
+              />
               <h3 class="hero-title">Ігор Дем'яненко</h3>
               <p class="hero-text">Product Designer</p>
             </article>
@@ -107,7 +137,11 @@
 
           <li>
             <article class="hero-article">
-              <img class="img-hero"src="./images/somewoman.png" alt="наша працівниця2" />
+              <img
+                class="img-hero"
+                src="./images/somewoman.png"
+                alt="наша працівниця2"
+              />
               <h3 class="hero-title">Ольга Рєпіна</h3>
               <p class="hero-text">Frontend Developer</p>
             </article>
@@ -115,35 +149,45 @@
 
           <li>
             <article class="hero-article">
-              <img class="img-hero" src="./images/somemen2.png" alt="наш працівник3"/>
+              <img
+                class="img-hero"
+                src="./images/somemen2.png"
+                alt="наш працівник3"
+              />
               <h3 class="hero-title">Микола Тарасов</h3>
               <p class="hero-text">Marketing</p>
             </article>
           </li>
           <li>
             <article class="hero-article">
-              <img class="img-hero" src="./images/somemen3.png" alt="наш працівник4"/>
+              <img
+                class="img-hero"
+                src="./images/somemen3.png"
+                alt="наш працівник4"
+              />
               <h3 class="hero-title">Михайло Єрмаков</h3>
               <p class="hero-text">UI Designer</p>
             </article>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-<!--footer-->
+    <!--footer-->
     <footer class="footer">
-      <span class="footer-title1">Web</span><span class="footer-title2">Studio</span>
+      <div class="container">
+      <span class="footer-title1">Web</span
+      ><span class="footer-title2">Studio</span>
       <ul class="footer-list">
         <li class="footer-item">
-          <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
+          <address class="footer-address">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
         </li>
-        <li class="footer-item">
-          info@devstudio.com
-        </li>
-        <li class="footer-item">
-          +38 096 111 11 11
-        </li>
+        <li class="footer-item">info@devstudio.com</li>
+        <li class="footer-item">+38 096 111 11 11</li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>

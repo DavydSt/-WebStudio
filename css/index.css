@@ -9,7 +9,18 @@
   --WebStudio-color: #2196F3;
 }
 
+.container{
+  outline: solid red;
+  width:  1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*header*/
+.header{
+  padding-top: ;
+}
 
 .header-title1{
   font-family: Raleway;
