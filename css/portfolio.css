@@ -26,6 +26,11 @@ section{
   outline: solid blue;
 }
 
+/* .hero-article {
+  outline: solid green;
+} */
+
+
 /*header*/
 
 .header{
@@ -71,19 +76,40 @@ letter-spacing: 0.02em;
 cursor: pointer;
 }
 
+ .header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-navigation {
+  margin-right: 344px;
+  margin-left: auto;
+} 
+
 .header-contact:hover{
   color: var(--WebStudio-color);
 }
 
+/* about */
 
- /* hero */
-
- .hero{
+.about{
   padding-top: 94px;
-  padding-bottom: 94px;
- }
+  padding-bottom: 25px;
+} 
 
- .hero-button{ /* чому воно не процює? чому воне не стоє синім? */
+.about-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.about-button{ 
   color: var(--accent-color);
 text-align: center;
 font-size: 16px;
@@ -94,10 +120,34 @@ background: var(--button-background);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.hero-button:hover{ /* чому воно не процює? чому воне не стоє синім? */
+.about-button:hover{ 
   color:var(--background-col);
 background: var(--WebStudio-color);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+ /* hero */
+
+ .hero{
+  padding-top: 25px;
+  padding-bottom: 94px;
+ }
+
+ .hero-list {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-item {
+  margin-bottom: 30px;
+  /* ? */
+}
+
+.hero-article {
+  margin-right: auto;
+  background-color: var(--background-col);
+  border: 1px solid #EEE;
+  width: 370px;
 }
 
 .hero-title{
