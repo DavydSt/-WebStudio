@@ -16,7 +16,7 @@ body {
 
 .container{
   outline: solid red;
-  width:  1170px;
+  width:  1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -25,10 +25,6 @@ body {
 section{
   outline: solid blue;
 }
-
-/* .hero-article {
-  outline: solid green;
-} */
 
 
 /*header*/
@@ -131,6 +127,8 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
  .hero{
   padding-top: 25px;
   padding-bottom: 94px;
+  height: 1272px;
+  flex-direction: row-reverse;
  }
 
  .hero-list {
@@ -140,7 +138,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
 
 .hero-item {
   margin-bottom: 30px;
-  /* ? */
+  
 }
 
 .hero-article {
