@@ -213,7 +213,7 @@ line-height: 1.16;
   width: 270px;
 height: 260px;
 flex-shrink: 0;
-margin-bottom: 30px;
+padding-bottom: 30px;
 }
 
 .hero-title{
@@ -230,8 +230,8 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
-margin-top: 10px;
-margin-bottom: 30px;
+padding-top: 10px;
+padding-bottom: 30px;
 }
 
 /*footer*/
