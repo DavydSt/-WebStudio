@@ -115,6 +115,8 @@ margin: 0 auto 30px;
 
 .about-button {
   color:var(--background-color);
+  width: 216px;
+  height: 50px;
   display: block;
   margin: 0 auto;
   font-size: 16px;
@@ -199,6 +201,7 @@ flex-shrink: 0;
 
 .hero-article {
   background-color: var(--background-color);
+  padding-bottom: 30px;
 }
 
 .hero-title1{
@@ -213,7 +216,7 @@ line-height: 1.16;
   width: 270px;
 height: 260px;
 flex-shrink: 0;
-padding-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .hero-title{
@@ -230,8 +233,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
-padding-top: 10px;
-padding-bottom: 30px;
+margin-top: 10px;
 }
 
 /*footer*/
@@ -258,12 +260,24 @@ font-weight: 700;
 line-height: 1.38;
 }
 
-.footer-item {
+.footer-address{
+  margin-top: 20px;
+}
+
+.footer-link{
+  margin-top: 9px;
   color: var(--additional-text-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
 }
+
+/* .footer-item {
+  color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+} */
 
 .footer-address {
   color: var(--background-color);
