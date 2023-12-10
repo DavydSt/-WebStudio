@@ -177,6 +177,10 @@ section {
   padding-bottom: 60px;
 }
 
+/* .footer-title1,.footer-title2{
+  margin-bottom: 20px;
+} */
+
 .footer-title1{
   color: var(--WebStudio-color);
   font-family: Raleway;
@@ -193,12 +197,11 @@ font-weight: 700;
 line-height: 1.38;
 }
 
-.footer-address{
-  margin-top: 20px;
+.footer-item{
+  margin-top: 9px;
 }
 
 .footer-link{
-  margin-top: 9px;
   color: var(--additional-text-color);
   font-size: 14px;
   font-weight: 400;
@@ -217,5 +220,5 @@ line-height: 1.38;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
+  margin-top: 20px;
 }
-
