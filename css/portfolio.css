@@ -6,6 +6,7 @@
   --background-color2: #2f303a;
   --button-background: #f5f4fa;
   --WebStudio-color: #2196f3;
+  --border-color: #ECECEC;
 }
 
 body {
@@ -22,15 +23,12 @@ body {
   padding-right: 15px;
 }
 
-/* section {
-  outline: solid blue;
-} */
-
 /*header*/
 
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px var(--border-color) solid;
 }
 
 .header-title1 {
