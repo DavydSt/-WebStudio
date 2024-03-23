@@ -6,6 +6,7 @@
   --background-color2: #2f303a;
   --button-background: #f5f4fa;
   --WebStudio-color: #2196f3;
+  --companys-color: #afb1b8;
 }
 
 body {
@@ -21,10 +22,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
-/* section{
-  outline: solid blue;
-} */
 
 /*header*/
 
@@ -91,23 +88,48 @@ body {
   color: var(--WebStudio-color);
 }
 
+.header-pictures{
+  width: 10px;
+  height: 16px;
+  fill: var(--additional-text-color);
+  margin-right: 10px;
+}
+
+.header-item:hover .header-pictures {
+  fill: var(--WebStudio-color);
+}
+
+.header-pictures:hover {
+  fill: var(--WebStudio-color);
+}
+
+.header-picture {
+  width: 16px;
+  height: 12px;
+}
+
+.header-container .header-list .header-item {
+  display: flex;
+  align-items: center;
+}
+
 /*about*/
-/* rgba(255, 255, 255, 1),rgba(255, 255, 255, 1) */
+
 .about-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:1600px;
+  width: 1600px;
   height: 100%;
-  background-image: linear-gradient(#2f303a66, #2f303a66), url(../images/people.jpg);
+  background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(../images/people.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4);/* або rgba(255, 255, 255, 1),rgba(255, 255, 255, 1) */
+  background-color: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4); /* або rgba(255, 255, 255, 1),rgba(255, 255, 255, 1) */
   padding-top: 200px;
   padding-bottom: 200px;
   border-radius: 4px;
 }
-
 
 .about-title {
   color: var(--background-color);
@@ -276,6 +298,89 @@ body {
   margin-top: 10px;
 }
 
+.picturis-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pictures-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  padding: 12px;
+}
+
+.hero-pectures {
+  width: 20px;
+  height: 20px;
+  fill: var(--additional-text-color);
+}
+
+/* .hero-pectures:hover {
+  fill: var(--button-background);
+} */
+
+.pictures-item:hover {
+  background-color: var(--WebStudio-color);
+}
+
+.pictures-item:hover .hero-pectures{
+  fill: var(--background-color);
+}
+
+/* companys  */
+
+.company-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.companys-titel {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.companys-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.companys-item {
+  width: 170px;
+  display: flex;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid var(--companys-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.companys-item:hover {
+  border: 1px solid var(--WebStudio-color);
+}
+
+.companys-item:hover .companys-picture{
+  fill: var(--WebStudio-color);
+}
+
+.companys-picture {
+  fill: var(--companys-color);
+  width: 106px;
+  height: 60px;
+}
+
 /*footer*/
 
 .footer {
@@ -283,10 +388,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/* .footer-title1,.footer-title2{
-  margin-bottom: 20px;
-} */
 
 .footer-title1 {
   color: var(--WebStudio-color);
@@ -304,6 +405,23 @@ body {
   line-height: 1.38;
 }
 
+.footer-list2 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  color: var(--background-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .footer-item {
   margin-top: 9px;
 }
@@ -315,17 +433,43 @@ body {
   line-height: 1.71;
 }
 
-/* .footer-item {
-  color: var(--additional-text-color);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-} */
-
 .footer-address {
   color: var(--background-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   margin-top: 20px;
+}
+
+.footer-pictures-container2 {
+  margin-left: 70px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-pictures-item {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footer-pictures-item:hover {
+  background-color: var(--WebStudio-color);
+}
+
+.footer-pectures {
+  width: 20px;
+  height: 20px;
+  fill: var(--background-color);
+}
+
+.footer-picture-list {
+  display: flex;
 }
