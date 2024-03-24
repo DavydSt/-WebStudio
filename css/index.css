@@ -95,6 +95,11 @@ body {
   margin-right: 10px;
 }
 
+/* .header-item:focus{
+  background-color: var(--button-background);
+  border-radius: 4px;
+} */
+
 .header-item:hover .header-pictures {
   fill: var(--WebStudio-color);
 }
@@ -318,10 +323,6 @@ body {
   height: 20px;
   fill: var(--additional-text-color);
 }
-
-/* .hero-pectures:hover {
-  fill: var(--button-background);
-} */
 
 .pictures-item:hover {
   background-color: var(--WebStudio-color);
