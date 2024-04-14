@@ -248,10 +248,10 @@ body {
   line-height: 1.16;
 }
 
-.team-item{
+.team-item {
   position: relative;
   width: 370px;
-height: 294px;
+  height: 294px;
 }
 
 .team-logo {
@@ -260,27 +260,27 @@ height: 294px;
   flex-shrink: 0;
 }
 
-.team-container{
+.team-container {
   top: 224px;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(47, 48, 58, 0.80);
+  background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
-height: 70px;
+  height: 70px;
 }
 
-.team-text{
+.team-text {
   color: var(--background-color);
-text-align: center;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 /*hero*/
@@ -438,7 +438,7 @@ text-transform: uppercase;
   height: 60px;
 }
 
-.companys-item:focus .compan-link{
+.companys-item:focus .compan-link {
   fill: var(--WebStudio-color);
   border: 1px solid var(--WebStudio-color);
 }
@@ -453,6 +453,7 @@ text-transform: uppercase;
   background-color: var(--background-color2);
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-right: 215px;
 }
 
 .footer-title1 {
@@ -556,4 +557,56 @@ text-transform: uppercase;
   height: 44px;
   border-radius: 100%;
   padding: 12px;
+}
+
+.sing-up{
+  margin-left: 93px;
+
+}
+
+.sing-up-titele {
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.sing-up-table {
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sing-up-button{
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+height: 50px;
+border-radius: 4px;
+background: var(--WebStudio-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
+}
+
+.sing-up-text {
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  letter-spacing: 0.96px;
 }
