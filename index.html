@@ -471,56 +471,27 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="sing-up">
-        <form>
-          <h2 class="sing-up-titele">Підпишіться на розсилку</h2>
-          <input type="email" placeholder="E-mail" class="sing-up-table" />
-          <button type="submit" class="sing-up-button">
-            Підписатися
-            <svg class="sing-up-picture"></svg>
-          </button>
-        </form>
+
+        <div class="sing-up">
+          <form>
+            <h2 class="sing-up-titele">Підпишіться на розсилку</h2>
+            <input type="email" placeholder="E-mail" class="sing-up-table" />
+            <button type="submit" class="sing-up-button">
+              <div class="sing-up-container">
+                <p class="sing-up-text">Підписатися</p>
+                <svg class="sing-up-picture">
+                  <use href="./symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </div>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <!-- <div class="backdrop is-hidden">
-      <div class="modal">
-
-<h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-<form action="">
-<ul class="modal-list">
-  <li class="modal-item">
-    <p class="modal-text">Ім'я</p>
-    <input type="text" class="modal-table">
-      <svg class="modal-photo">
-        <use></use>
-      </svg>
-    </input>
-  </li>
-  <li class="modal-item">
-    <p class="modal-text">Телефон</p>
-    <input type="text" class="modal-table">
-      <svg class="modal-photo">
-        <use></use>
-      </svg>
-    </input>
-  </li>
-  <li class="modal-item">
-    <p class="modal-text">Пошта</p>
-    <input type="text" class="modal-table">
-      <svg class="modal-photo">
-        <use></use>
-      </svg>
-    </input>
-  </li>
-</ul>
-</form>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script> -->
+    
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <div class="korobka">
+        <div class="knopka">
           <button type="button" class="modal-button" data-modal-close>
             <svg class="modal-picture">
               <use href="./symbol-defs.svg#icon-close-black-18dp-2-1"></use>
@@ -528,6 +499,59 @@
           </button>
         </div>
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+      </div>
+      <div class="modal-list-container">
+        <form>
+          <ul class="modal-list">
+            <li class="modal-item">
+              <h2 class="modal-subtitle">Ім'я</h2>
+              <div class="modal-korobka">
+                <svg class="modal-picture">
+                  <use href="./symbol-defs.svg#icon-person-black-18dp-1"></use>
+                </svg>
+                <input type="text" id="name" class="modal-table-text" />
+              </div>
+            </li>
+            <li class="modal-item">
+              <h2 class="modal-subtitle">Телефон</h2>
+              <div class="modal-korobka">
+                <svg class="modal-picture">
+                  <use href="./symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+                <input type="text" id="tel" class="modal-table-text" />
+              </div>
+            </li>
+            <li class="modal-item">
+              <h2 class="modal-subtitle">Пошта</h2>
+              <div class="modal-korobka">
+                <svg class="modal-picture">
+                  <use href="./symbol-defs.svg#icon-email-black-18dp-1"></use>
+                </svg>
+                <input type="text" id="email" class="modal-table-text" />
+              </div>
+            </li>
+            <li class="modal-item">
+              <h2 class="modal-subtitle">Коментар</h2>
+              <div class="modal-coment-korobka">
+                <label class="modal-coment">
+                  <textarea
+                    placeholder="Введіть текст"
+                    class="modal-coment-text"
+                  ></textarea>
+                </label>
+              </div>
+            </li>
+          </ul>
+          <div class="coordination">
+            <p class="coordination-text">Погоджуюся з розсилкою та приймаю </p>
+            <a href="./coordination.html" class="coordination-href"> Умови договору</a>
+          </div>
+          <div class="button-container">
+            <button type="submit" class="modal-button-submit">
+              Відправити
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
