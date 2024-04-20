@@ -790,8 +790,8 @@ body {
 
 .coordination{
   display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 
-.coordination-text{
-  margin-top: 20px;
-}
+
