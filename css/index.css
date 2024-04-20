@@ -559,9 +559,8 @@ body {
   padding: 12px;
 }
 
-.sing-up{
+.sing-up {
   margin-left: 93px;
-
 }
 
 .sing-up-titele {
@@ -587,16 +586,16 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.sing-up-button{
+.sing-up-button {
   padding-left: 28px;
   padding-right: 28px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 200px;
-height: 50px;
-border-radius: 4px;
-background: var(--WebStudio-color);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
+  height: 50px;
+  border-radius: 4px;
+  background: var(--WebStudio-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .sing-up-text {
@@ -607,6 +606,70 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; 
+  line-height: 30px;
   letter-spacing: 0.96px;
+}
+
+.backdrop {
+  position: fixed;
+  background: rgba(128, 128, 128, 0.4);
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  backdrop-filter: blur 0.5;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+  width: 528px;
+  height: 581px;
+  background-color: var(--background-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.modal-button {
+  width: 30px;
+  height: 30px;
+  padding: 6px, 6px, 6px, 6px;
+  border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.korobka{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+  padding-right: 8px;
+}
+
+.modal-picture {
+  width: 18px;
+  height: 18px;
+}
+
+.modal-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
 }
