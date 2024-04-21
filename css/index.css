@@ -695,8 +695,6 @@ body {
 }
 
 .modal-list-container {
-  position: relative;
-  top: 297px;
   display: flex;
   align-items: center;
   justify-content: center;
