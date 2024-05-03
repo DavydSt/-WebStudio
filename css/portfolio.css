@@ -71,9 +71,10 @@ body {
 }
 
 .header-link {
-  transition-timing-function: cubic-bezier(1, 0.99, 0, -0.01);
-  transition-duration: 200ms;
-  transition-property: width;
+  /* transition-timing-function: cubic-bezier(1, 0.99, 0, -0.01); */
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   color: var(--accent-color);
   font-size: 14px;
@@ -99,6 +100,7 @@ body {
 
 .header-link:hover::after {
   opacity: 1;
+  /* transform: scaleX(1); */
 }
 
 .header-contact {
@@ -129,6 +131,9 @@ body {
 .header-pictures {
   width: 10px;
   height: 16px;
+  transition-duration: 250ms;
+  transition-property: fill;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--additional-text-color);
   margin-right: 10px;
 }
@@ -151,6 +156,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.header-contact {
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-links {
@@ -187,6 +198,9 @@ background: var(--WebStudio-color);
 } */
 
 .about-button {
+  transition-duration: 250ms;
+  transition-property: color, box-shadaw;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
   padding: 6px 25px;
   text-align: center;
@@ -241,13 +255,13 @@ img {
 }
 
 .hero-box-text {
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   right: 0;
   left: 0;
   height: 294px;
-  transition-timing-function: cubic-bezier(1, 0.99, 0, -0.01);
-transition-duration: 1s;
-transition-delay: 1s;
   transition-property: backgraund;
   opacity: 0;
   background: rgba(33, 150, 243, 0.9);
@@ -255,6 +269,9 @@ transition-delay: 1s;
 }
 
 .box-text {
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--background-color);
   font-family: Roboto;
   font-size: 18px;
@@ -378,6 +395,9 @@ transition-delay: 1s;
 }
 
 .footer-pictures-item {
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1); 
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
@@ -486,3 +506,4 @@ transition-delay: 1s;
   line-height: 30px;
   letter-spacing: 0.96px; */
 }
+
