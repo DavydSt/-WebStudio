@@ -246,7 +246,8 @@ img {
   left: 0;
   height: 294px;
   transition-timing-function: cubic-bezier(1, 0.99, 0, -0.01);
-  transition-duration: 200ms;
+transition-duration: 1s;
+transition-delay: 1s;
   transition-property: backgraund;
   opacity: 0;
   background: rgba(33, 150, 243, 0.9);
