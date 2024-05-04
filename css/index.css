@@ -99,7 +99,11 @@ body {
 
 .header-link:hover::after {
   opacity: 1;
-  /* transform: scaleX(1); */
+}
+
+.header-link:visited:after {
+  opacity: 1;
+  
 }
 
 .header-contact {
