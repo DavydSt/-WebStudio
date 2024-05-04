@@ -241,6 +241,7 @@ background: var(--WebStudio-color);
 
 .hero-article {
   margin-right: auto;
+  height: 384px;
   position: relative;
   background-color: var(--background-col);
 }
@@ -255,23 +256,21 @@ img {
 }
 
 .hero-box-text {
-  transition-duration: 250ms;
-  transition-property: background-color;
-  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-property: transform;
+  transform-origin: bottom;
   position: absolute;
+  top: 110px;
   right: 0;
   left: 0;
   height: 294px;
-  transition-property: backgraund;
   opacity: 0;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px 63px 24px;
 }
 
 .box-text {
-  transition-duration: 250ms;
-  transition-property: color;
-  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--background-color);
   font-family: Roboto;
   font-size: 18px;
@@ -282,6 +281,7 @@ img {
 }
 
 .hero-item:hover .hero-box-text {
+  transform: translate(-0px, -110px);
   opacity: 1;
 }
 
@@ -292,6 +292,14 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-left: 24px;
+}
+
+.korobca{
+  width: 370px;
+height: 110px;
+background-color: var(--background-color);
+  position: absolute;
+  z-index: 2;
 }
 
 .hero-item:focus {
@@ -397,7 +405,7 @@ img {
 .footer-pictures-item {
   transition-duration: 250ms;
   transition-property: background-color;
-  transition-delay: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
@@ -506,4 +514,3 @@ img {
   line-height: 30px;
   letter-spacing: 0.96px; */
 }
-
