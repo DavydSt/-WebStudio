@@ -24,6 +24,84 @@ body {
   padding-right: 15px;
 }
 
+section{
+  animation-name: section-invisible;
+  animation-duration: 7000ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+@keyframes section-invisible {
+ 0%{
+  opacity: 0;
+ }
+
+ 50%{
+  opacity: 0;
+ }
+
+ 100%{
+  opacity: 1;
+ }
+}
+
+.welcome-box-title{
+  font-family: Roboto;
+  color: var(--text-color);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.welcome-box-title1{
+  font-family: Raleway;
+  color: var(--WebStudio-color);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.welcome-box-title2{
+  font-family: Raleway;
+  color: var(--text-color);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.welcome-box{
+  display: flex;
+justify-content: center;
+align-items: center;
+  position: fixed;
+  animation-name: welcome-box;
+  animation-duration: 4000ms;
+  animation-iteration-count: 1;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transform: translate(1000000px, 0px);
+}
+
+@keyframes welcome-box {
+  0%{
+    transform: translate(-1000px, 0px);
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+
+  100%{
+    opacity: 0;
+    transform: translate(1000px, 0px);
+  }
+}
+
 *:focus {
   outline: none;
 }
