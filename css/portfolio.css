@@ -26,7 +26,7 @@ body {
 
 section{
   animation-name: section-invisible;
-  animation-duration: 7000ms;
+  animation-duration: 3000ms;
   animation-iteration-count: 1;
   opacity: 1;
 }
